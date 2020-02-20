@@ -1,17 +1,17 @@
-[![Github Marketplace](https://raw.githubusercontent.com/roles-ansible/check-ansible-debian-stable-action/master/.github/marketplace.svg?sanitize=true)](https://github.com/marketplace/actions/check-ansible-debian-stable)
-[![MIT License](https://raw.githubusercontent.com/roles-ansible/check-ansible-debian-stable-action/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/check-ansible-debian-stable-action/blob/master/LICENSE)
+[![Github Marketplace](https://raw.githubusercontent.com/roles-ansible/check-ansible-ubuntu-latest-action/master/.github/marketplace.svg?sanitize=true)](https://github.com/marketplace/actions/check-ansible-ubuntu-latest)
+[![MIT License](https://raw.githubusercontent.com/roles-ansible/check-ansible-ubuntu-latest-action/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/check-ansible-ubuntu-latest-action/blob/master/LICENSE)
 
- Check Ansible Debian stable
+ Check Ansible Ubuntu latest
 =======================
-This action allows you to test your ansible role or your playbook in a Docker Container with ``debian:stable``.
+This action allows you to test your ansible role or your playbook in a Docker Container with ``ubuntu:latest``.
 
 ## Usage
-To use the action simply create an ``ansible-debian-stable.yml`` *(or choose custom ``*.yml`` name)* in the ``.github/workflows/`` directory.
+To use the action simply create an ``ansible-ubuntu-latest.yml`` *(or choose custom ``*.yml`` name)* in the ``.github/workflows/`` directory.
 
 For example:
 
 ```yaml
-name: Ansible check debian:stable  # feel free to pick your own name
+name: Ansible check ubuntu:latest  # feel free to pick your own name
 
 on: [push, pull_request]
 
@@ -24,9 +24,9 @@ jobs:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
     - uses: actions/checkout@v2
 
-    - name: ansible check with debian:stable
+    - name: ansible check with ubuntu:latest
       # replace "master" with any valid ref
-      uses: roles-ansible/check-ansible-debian-stable-action@master
+      uses: roles-ansible/check-ansible-ubuntu-latest-action@master
       with:
         targets: "./"
         #  [required]
@@ -69,6 +69,7 @@ on:
   push:
     branches:
     - stable
+    - master
     - release/v*
 ```
 

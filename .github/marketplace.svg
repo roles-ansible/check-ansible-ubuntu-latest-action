@@ -386,7 +386,7 @@
      transform="translate(-0.27705426,0.85773344)"
      id="g1216"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.3;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     aria-label="roles-ansible/check-ansible-debian-stable-action">
+     aria-label="roles-ansible/check-ansible-ubuntu-latest-action">
     <path
        inkscape:connector-curvature="0"
        id="path1120"
@@ -629,7 +629,7 @@
        d="m 360.19732,10.74618 v 3.630859 h -0.98828 v -3.598633 q 0,-0.8540038 -0.33301,-1.2783202 -0.33301,-0.4243164 -0.99902,-0.4243164 -0.8003,0 -1.26221,0.5102539 -0.46191,0.5102537 -0.46191,1.3911137 v 3.399902 h -0.99366 V 8.361414 h 0.99366 v 0.9345703 q 0.35449,-0.5424805 0.83251,-0.8110352 0.4834,-0.2685547 1.11182,-0.2685547 1.03662,0 1.56836,0.6445313 0.53174,0.6391601 0.53174,1.8852543 z" />
   </g>
   <g
-     aria-label="roles-ansible/check-ansible-debian-stable-action"
+     aria-label="roles-ansible/check-ansible-ubuntu-latest-action"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
      id="text1021"
      transform="translate(-0.27705426,-0.07683686)">
