@@ -1,8 +1,8 @@
 [![Github Marketplace](https://raw.githubusercontent.com/roles-ansible/check-ansible-ubuntu-latest-action/master/.github/marketplace.svg?sanitize=true)](https://github.com/marketplace/actions/check-ansible-ubuntu-latest)
 [![MIT License](https://raw.githubusercontent.com/roles-ansible/check-ansible-ubuntu-latest-action/master/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/check-ansible-ubuntu-latest-action/blob/master/LICENSE)
 
- Check Ansible Ubuntu latest
-=======================
+ 🚀 Check Ansible Ubuntu latest
+=================================
 This action allows you to test your ansible role or your playbook in a Docker Container with ``ubuntu:latest``.
 
 ## Usage
@@ -87,7 +87,7 @@ The Dockerfile and associated scripts and documentation in this project are rele
 
  Credits
 --------------
-The initial GitHub action has been created by [Stefan Stölzle](/stoe) at
-[stoe/actions](https://github.com/stoe/actions).<br/>
+The initial GitHub action has been created by [Stefan Stölzle](https://github.com/stoe) at
+[stoe/actions](https://github.com/stoe/actions.git).<br/>
 It was used by ansible for lint checks at [ansible/ansible-lint-action](https://github.com/ansible/ansible-lint-action.git)<br/>
-It was modified from [L3D](github.com/do1jlr) to check ansible roles.
+It was modified from [L3D](https://github.com/do1jlr) to check ansible roles.
