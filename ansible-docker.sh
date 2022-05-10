@@ -62,6 +62,8 @@ ansible::test::playbook() {
   ansible-playbook --connection=local --inventory host.ini ${TARGETS} 
 }
 
+# avoid git complaining about directory owned by somebody else in the container
+git config --global --add safe.directory /github/workspace
 # make sure git is up to date
 git submodule update --init --recursive
 if [[ "${REQUIREMENTS}" == *.yml ]]
