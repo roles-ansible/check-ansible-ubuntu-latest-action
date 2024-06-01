@@ -19,9 +19,8 @@ RUN apt-get update -y && apt-get install -y \
     python3-dev \
     python3-pip \
     git \
-    systemd
-
-RUN pip3 install setuptools && pip3 install ansible
+    systemd \
+    ansible
 
 RUN ansible --version
 
